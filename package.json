@@ -1,0 +1,19 @@
+{
+  "name": "node-exemple",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "DEBUG=koa* nodemon server.js --exec babel-node"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-node6": "^11.0.0",
+    "koa": "^2.3.0",
+    "koa-logger": "^3.1.0",
+    "koa-nunjucks-2": "^3.0.2",
+    "koa-router": "^7.2.1",
+    "path": "^0.12.7"
+  }
+}
